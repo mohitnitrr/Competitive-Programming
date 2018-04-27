@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Implementation">
+      <UniqueIdentifier>{74b5bed7-4187-4d2a-98b6-087f9996abb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WarmUP">
+      <UniqueIdentifier>{18a15903-503c-4d98-bc3c-54ee63212431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String">
+      <UniqueIdentifier>{51a128a4-dd8d-4197-9c79-259757632ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array">
+      <UniqueIdentifier>{f4c51b93-5515-4b60-b38f-076d1687ec3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vector">
+      <UniqueIdentifier>{41290b81-b9ca-4a3c-887c-77124f94f4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BaseDerived">
+      <UniqueIdentifier>{47630cca-f2f9-4d0d-90e0-791c66d73094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit">
+      <UniqueIdentifier>{ce5df7a8-070f-4428-9836-c1e8ae88a831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\Arrays">
+      <UniqueIdentifier>{414dc21d-bd5c-4351-ba70-2832043cb1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\Maths">
+      <UniqueIdentifier>{a378aad7-3812-43d1-9c97-ecad592383ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\String">
+      <UniqueIdentifier>{cf2d4666-765c-4a49-8a30-fb325c3896da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\BitManipulation">
+      <UniqueIdentifier>{d15b797e-f64e-42c2-bb48-e007e943fdb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\TwoPointer">
+      <UniqueIdentifier>{8b41f49a-f377-434a-8bbe-25b8a2be1a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\BinarySearch">
+      <UniqueIdentifier>{715ab971-00eb-4e97-b799-5d2085546597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\StackAndQueue">
+      <UniqueIdentifier>{75c31a87-401f-42bd-bfc0-4b356b530a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\LinkedList">
+      <UniqueIdentifier>{3174d971-998c-4145-aa85-fd9819e64a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\Backtracking">
+      <UniqueIdentifier>{54db2dec-3362-4ba8-9103-2b9c3e30c1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\Hashing">
+      <UniqueIdentifier>{e494c09d-930c-4d89-bddf-9fe30b25e17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\HeapAndMaps">
+      <UniqueIdentifier>{8f5cec30-872a-4c07-8e98-47d431641f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\Tree">
+      <UniqueIdentifier>{afec7d71-96c5-44cc-be67-a375003b90af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\Dynamic">
+      <UniqueIdentifier>{118a5056-e5b5-46b9-b780-e5e252c9b962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\Greedy">
+      <UniqueIdentifier>{5616fdd2-9823-4d68-9328-05cc61982aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interviewbit\Graph">
+      <UniqueIdentifier>{1f49a73a-735f-47a0-afa2-9b99aa7d3410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HackerRank">
+      <UniqueIdentifier>{b1672a00-7fbf-45ec-8790-c1762ca3f549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HackerEarth">
+      <UniqueIdentifier>{7a7952b3-bb2c-4840-a569-14b0a54b72db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{fbb258e4-b982-4ba1-9450-79442ba8792c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bits_stdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Source Files\Interviewbit\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
+      <Filter>Source Files\Interviewbit\Tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="12ClockTo24Clock.cpp">
+      <Filter>Source Files\WarmUP</Filter>
+    </ClCompile>
+    <ClCompile Include="FindMAXAndMinSumOFArray.cpp">
+      <Filter>Source Files\WarmUP</Filter>
+    </ClCompile>
+    <ClCompile Include="GradingStudents.cpp">
+      <Filter>Source Files\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperReducedString.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="CamelCase.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoCharacter.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="testcpp.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="MarsExploration.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="HackerRankString.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="WeightedUniformStrings.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="swap.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorIterator.cpp">
+      <Filter>Source Files\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamMedian.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\BaseDerived</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinuousPositiveSubArray.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPositiveInteger.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="kthRowPascal.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxSumContinuous.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="MinStepsInGrid.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="NobleInteger.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="PascalTriangle.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatingAndMissing.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatNumber.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatNumber2.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralOrderII.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralMatrix.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeSum.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="TrailingZeros.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="GCD.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerOfTwo.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelColumnNumber.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="PallindromeInteger.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="PrettyPrint.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="VerifyPrime.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryRepresentation.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromeString.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestCommonPrefix.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="CountandSay.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="AddBinaryString.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerTwo.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="RomantoInt.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthOfLastWord.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestPalindrome.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Strstr.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="MinCharPalindromeString.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="MinXorVal.cpp">
+      <Filter>Source Files\Interviewbit\BitManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Count1bits.cpp">
+      <Filter>Source Files\Interviewbit\BitManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="XorPair.cpp">
+      <Filter>Source Files\Interviewbit\BitManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumber.cpp">
+      <Filter>Source Files\Interviewbit\BitManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingTriangles.cpp">
+      <Filter>Source Files\Interviewbit\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumAbsoluteDiff.cpp">
+      <Filter>Source Files\Interviewbit\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Diffk.cpp">
+      <Filter>Source Files\Interviewbit\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersect.cpp">
+      <Filter>Source Files\Interviewbit\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeTwoList.cpp">
+      <Filter>Source Files\Interviewbit\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicates.cpp">
+      <Filter>Source Files\Interviewbit\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="PoewerFunc.cpp">
+      <Filter>Source Files\Interviewbit\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatedSorted.cpp">
+      <Filter>Source Files\Interviewbit\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixSearch.cpp">
+      <Filter>Source Files\Interviewbit\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixMedian.cpp">
+      <Filter>Source Files\Interviewbit\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="AllocateBooks.cpp">
+      <Filter>Source Files\Interviewbit\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="PainterProblem.cpp">
+      <Filter>Source Files\Interviewbit\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="KthSmallest.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseStringStack.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="ParanthesisCheck.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="MinStack.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="RainWater.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="EvaluateExpression.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="NearSmallerElement.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="LargestRectangleHistogram.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="SlidingWindow.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="ReductantBraces.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindrom.cpp">
+      <Filter>Source Files\Interviewbit\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateLinkedList.cpp">
+      <Filter>Source Files\Interviewbit\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Source Files\Interviewbit\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutation.cpp">
+      <Filter>Source Files\Interviewbit\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="SubsetProblem.cpp">
+      <Filter>Source Files\Interviewbit\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Combinations.cpp">
+      <Filter>Source Files\Interviewbit\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSum.cpp">
+      <Filter>Source Files\Interviewbit\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="NQueen.cpp">
+      <Filter>Source Files\Interviewbit\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorfulNumber.cpp">
+      <Filter>Source Files\Interviewbit\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="LargestContSequenceSumZero.cpp">
+      <Filter>Source Files\Interviewbit\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="2Sum.cpp">
+      <Filter>Source Files\Interviewbit\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidateSuduko.cpp">
+      <Filter>Source Files\Interviewbit\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="Anagrams.cpp">
+      <Filter>Source Files\Interviewbit\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomListNode.cpp">
+      <Filter>Source Files\Interviewbit\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="LargestNonRepeating.cpp">
+      <Filter>Source Files\Interviewbit\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="Equal.cpp">
+      <Filter>Source Files\Interviewbit\Hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePermutation.cpp">
+      <Filter>Source Files\Interviewbit\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxPairCombination.cpp">
+      <Filter>Source Files\Interviewbit\HeapAndMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicianAndChocolate.cpp">
+      <Filter>Source Files\Interviewbit\HeapAndMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="DistinctNumberInWindow.cpp">
+      <Filter>Source Files\Interviewbit\HeapAndMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="LRU.cpp">
+      <Filter>Source Files\Interviewbit\HeapAndMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files\Interviewbit\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedTree.cpp">
+      <Filter>Source Files\Interviewbit\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="BSTIterator.cpp">
+      <Filter>Source Files\Interviewbit\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="PostOrderTraversal.cpp">
+      <Filter>Source Files\Interviewbit\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="BalancedBST.cpp">
+      <Filter>Source Files\Interviewbit\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Inversion.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="MinSumPath.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Stairs.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestCommonSubsequence.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestSequence.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestIncreasingSequence.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatSubSequence.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DistinctSequence.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="InterleavedString.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Min_Jumps_Array.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Candy.cpp">
+      <Filter>Source Files\Interviewbit\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="MiceHole.cpp">
+      <Filter>Source Files\Interviewbit\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulb.cpp">
+      <Filter>Source Files\Interviewbit\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="HighestProduct.cpp">
+      <Filter>Source Files\Interviewbit\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="MajorityElement.cpp">
+      <Filter>Source Files\Interviewbit\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Seat.cpp">
+      <Filter>Source Files\Interviewbit\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="GasStation.cpp">
+      <Filter>Source Files\Interviewbit\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="WaytoDecode.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDistance.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="BirthdayBomb.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonPrincess.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="RodCutting.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueBST.cpp">
+      <Filter>Source Files\Interviewbit\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelOrder.cpp">
+      <Filter>Source Files\Interviewbit\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidPath.cpp">
+      <Filter>Source Files\Interviewbit\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="smallestSequence.cpp">
+      <Filter>Source Files\Interviewbit\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureRegion.cpp">
+      <Filter>Source Files\Interviewbit\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="LargestDistanceTwoNodes.cpp">
+      <Filter>Source Files\Interviewbit\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePathsInGrid.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="MinSumInTriangle.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxRectangleInMatrix.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxSumPath.cpp">
+      <Filter>Source Files\Interviewbit\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxSumWithoutAdjacent.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="RootToLeafPath.cpp">
+      <Filter>Source Files\Interviewbit\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeKsortedList.cpp">
+      <Filter>Source Files\Interviewbit\HeapAndMaps</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumConsecutiveGap.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="AddOneToNumber.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumAbsoluteDifference.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="Flip.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="LargestNumber.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="Catalan.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="RearrangeArrays.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="FizzBuzz.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="HammingDistance.cpp">
+      <Filter>Source Files\Interviewbit\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplyNumber.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Atoi.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidNumber.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplifyDirectoryPath.cpp">
+      <Filter>Source Files\Interviewbit\StackAndQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="SortColors.cpp">
+      <Filter>Source Files\Interviewbit\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxContinuesSeriesof1.cpp">
+      <Filter>Source Files\Interviewbit\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Repeat.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveArray.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxDistance.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="SteppingNumber.cpp">
+      <Filter>Source Files\Interviewbit\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="SortedListToBST.cpp">
+      <Filter>Source Files\Interviewbit\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="SumOfFibonacciNumbers.cpp">
+      <Filter>Source Files\Interviewbit\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerToRoman.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="ZigZagString.cpp">
+      <Filter>Source Files\Interviewbit\String</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipArray.cpp">
+      <Filter>Source Files\Interviewbit\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="kthPermutation.cpp">
+      <Filter>Source Files\Interviewbit\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="GrayCode.cpp">
+      <Filter>Source Files\Interviewbit\Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Source1.cpp">
+      <Filter>Source Files\HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceHE.cpp">
+      <Filter>Source Files\HackerEarth</Filter>
+    </ClCompile>
+    <ClCompile Include="DistinctCharacter.cpp">
+      <Filter>Source Files\HackerEarth</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTesting.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="HotelBookingsPossible.cpp">
+      <Filter>Source Files\Interviewbit\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyCountuber.cpp">
+      <Filter>Source Files\HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="EfficientSchedulling.cpp">
+      <Filter>Source Files\HackerRank</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
